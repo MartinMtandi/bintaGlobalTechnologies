@@ -18,8 +18,8 @@ function Hero() {
                             }}
                         />
                         </span>
-                        <p>design and development.</p>
-                        <button className="bg-red-600 block mt-6 text-base uppercase px-3 py-2 text-gray-100 font-semibold rounded shadow">Let's discuss your project</button>
+                        <p className="mb-6">design and development.</p>
+                        <a href="#contact-us" className="bg-red-600 text-base uppercase px-3 py-2 text-gray-100 font-semibold rounded shadow">Let's discuss your project</a>
 
                     </div>
                 </div>

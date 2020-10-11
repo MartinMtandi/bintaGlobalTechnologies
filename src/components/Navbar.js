@@ -17,18 +17,18 @@ function Navbar() {
             </div>
             <div className={`w-full ${(toggleOpen) ? "block" : "md:block hidden"} flex-grow lg:flex lg:items-center lg:w-auto uppercase text-gray-800 font-semibold`}>
                 <div className="text-sm lg:flex-grow text-right">
-                    <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 md:mr-6">
+                    <a href="#home" className="block mt-4 lg:inline-block lg:mt-0 md:mr-6">
                         Home
                     </a>
-                    <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 md:mr-6">
+                    <a href="#services" className="block mt-4 lg:inline-block lg:mt-0 md:mr-6">
                         Services
                     </a>
-                    <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0">
+                    <a href="#about" className="block mt-4 lg:inline-block lg:mt-0">
                         About
                     </a>
                 </div>
                 <div className="lg:ml-6 text-right md:text-left">
-                    <button className="inline-block uppercase px-4 py-2 leading-none border rounded text-white border-red-600 shadow bg-red-600 hover:bg-red-700 mt-4 lg:mt-0">Get Quote</button>
+                    <a href="#contact-us" className="inline-block uppercase px-4 py-2 leading-none border rounded text-white border-red-600 shadow bg-red-600 hover:bg-red-700 mt-4 lg:mt-0">Get Quote</a>
                 </div>
             </div>
         </nav>
