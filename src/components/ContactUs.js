@@ -2,8 +2,8 @@ import React from 'react'
 
 function ContactUs() {
     return (
-        <div className="container mx-auto py-12">
-            <h1 className="text-gray-800 font-semibold text-4xl text-center pt-12">Request a Quotation</h1>    
+        <div className="container mx-auto py-12 px-4 md:px-0">
+            <h1 className="text-gray-800 font-semibold md:text-4xl text-2xl text-center pt-12">Request a Quotation</h1>    
             <div className="mt-5">
                 <div className="grid grid-cols-2 gap-4 mb-3">
                     <div>
