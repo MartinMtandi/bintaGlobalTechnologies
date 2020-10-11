@@ -23,7 +23,7 @@ function Hero() {
 
                     </div>
                 </div>
-                <div className="col-span-7 text-right">
+                <div className="col-span-7 text-right md:my-0 my-10">
                     <img src={Watch} alt="Watch" />
                 </div>
             </div>

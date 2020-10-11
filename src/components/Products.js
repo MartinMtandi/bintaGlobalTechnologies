@@ -4,13 +4,13 @@ import Work from '../images/work.svg'
 function Products() {
     return (
         <div className="py-16 text-gray-800">
-            <div className="grid grid-cols-2 gap-3 container mx-auto">
+            <div className="md:grid md:grid-cols-2 md:gap-3 container mx-auto px-4 md:px-4">
                 <div>
                     <h1 className="text-2xl text-gray-800 font-medium mb-3">Custom Software Development Services</h1>
                     <p className="mb-8">
                         Need help bringing a new digital product to market? Need to rebuild an existing product that isn't scaling? Or, may be you have a legacy application that needs to be re-platformed - We can help.
                     </p>
-                    <div>
+                    <div className="mt-3 mb-8 md:mt-0 md:mb-0">
                         <img src={Work} alt="work-svg"/>
                     </div>
                 </div>

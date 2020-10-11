@@ -7,9 +7,9 @@ import productDesign from '../images/product-management-active.svg'
 
 function Services() {
     return (
-        <div className="bg-red-100">    
-            <h1 className="text-gray-800 font-semibold text-4xl text-center pt-12">Software Development Services</h1>            
-            <div className="flex item-center justify-between pb-12 pt-6 container mx-auto text-center">
+        <div className="bg-red-100 mt-32 md:mt-0">    
+            <h1 className="text-gray-800 font-semibold md:text-4xl text-2xl leading-9 md:leading-none text-center pt-12">Software Development Services</h1>            
+            <div className="md:flex md:item-center grid grid-cols-2 md:justify-between pb-12 pt-6 container mx-auto text-center">
                 <div>
                     <img src={UI} alt="UI/UX design" className="block mx-auto" />
                     <p className="my-4">UX/UI <br />Design</p>
