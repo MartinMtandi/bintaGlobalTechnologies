@@ -4,7 +4,7 @@ import ar from '../images/ar.jpg'
 function AboutUs() {
     return (
         <div id="about">
-            <div className="container mx-auto px-4 lg:px-0">
+            <div className="container mx-auto px-4">
                 <h1 className="text-gray-800 font-semibold md:text-4xl text-2xl text-center pt-12">About Binta Global Technologies</h1>
                 <div className="md:grid md:grid-cols-6 md:gap-4 items-center pt-5">
                     <div className="col-span-3">

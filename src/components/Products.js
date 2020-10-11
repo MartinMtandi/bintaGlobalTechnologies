@@ -3,8 +3,8 @@ import Work from '../images/work.svg'
 
 function Products() {
     return (
-        <div className="py-16 text-gray-800">
-            <div className="md:grid md:grid-cols-2 md:gap-3 container mx-auto px-4 md:px-4">
+        <div className="py-16 text-gray-800 px-4">
+            <div className="md:grid md:grid-cols-2 md:gap-3 container mx-auto">
                 <div>
                     <h1 className="text-2xl text-gray-800 font-medium mb-3 text-center md:text-left">Custom Software Development Services</h1>
                     <p className="mb-8">

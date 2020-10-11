@@ -4,7 +4,7 @@ import Watch from '../images/watch.svg'
 
 function Hero() {
     return (
-        <div className="container mx-auto my-12">
+        <div className="container mx-auto my-12 px-6">
             <div className="lg:grid lg:grid-cols-12 lg:mx-0 mx-3 gap-4">
                 <div className="text-gray-800 col-span-5">
                     <h1 className="lg:text-6xl text-5xl font-bold leading-none">Software <br /> Development <br /> Agency</h1>
